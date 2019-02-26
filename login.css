@@ -1,0 +1,34 @@
+li {
+    list-style:none;
+    padding: 1%;
+}
+body{
+    background-color:grey;
+    margin-left:16%;
+    padding: 250;
+}
+button{
+    appearance: none;
+    outline: 0;
+    background-color: green;
+    border: 0;
+    padding: 10px 15px;
+    color: @prim;
+    border-radius: 3px;
+    width: 90px;
+    height: 50;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+}
+input{
+    display: block;
+    appearance: none;
+    outline: 0;
+    border: 1px solid fade(white, 40%);
+    background-color: fade(white, 20%);
+    width: 350px;
+    height: 45;
+}
+
+    
